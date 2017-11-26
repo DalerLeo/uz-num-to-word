@@ -1,0 +1,58 @@
+html ,body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	background-color: #8889951a;
+}
+#main {
+	width: 100%;
+	height: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+#main > div {
+	position: relative;
+	width: 50%;
+	height: 70%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 3px 2px 20px #00000057;
+	background-color: #fff;
+	padding: 10px;
+	overflow: hidden;
+}
+h1 {
+	font-size: 20px;
+}
+.info {
+	position: absolute;
+	top: 15px;
+}
+
+.show {
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	top: calc(50% + 25px);
+}
+input {
+	border: 0px;
+	border-bottom: 2px solid #333;
+}
+
+input:focus {
+	transition: all ease-out(0.3s);
+	border-bottom: 3px solid #2194d4fc;
+	outline: unset;
+}
+
+#main p {
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0px;
+}
